@@ -8,8 +8,8 @@
 
 ### ScreenShot
 
-![Desktop](./design/desktop-design.jpg)
-![Mobile](./design/mobile-design.jpg)
+![Desktop](./assets/Screenshots/Desktop%20view.png)
+![Mobile](./assets/Screenshots/mobile_view.png  )
 
 ### Author
 
