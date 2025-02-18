@@ -4,7 +4,7 @@
 ### Links 
 
 - Solution URL: [Github](https://github.com/akash-agasur/Hosting-Site)
-- Live Site URL: [vercel Link](https://huddle-landing-page-virid.vercel.app/)
+- Live Site URL: [vercel Link](https://hosting-site-one.vercel.app/)
 
 ### ScreenShot
 
