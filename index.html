@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="vitthal-korvan" />
+    <link rel="icon" type="image/x-icon" href="./assets/Icons/signal.svg" />
+    <title>Hosting Landing Page</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="font-[Roboto]">
+                                                             <!------HEADER---  -->
+    <header class="bg-black">
+      <div class="header max-width flex justify-between py-5 px-5">
+                                                                  <!-----LOGO----->
+        <img src="./assets/images/Logo.svg" alt="" class="logo" />
+
+                                                                     <!-----NAVBAR----->
+        <div class="navbar">
+          <ul class="navlinks hidden lg:block lg:text-zinc-400 lg:flex gap-4">
+            <li><a href="#">Hosting</a></li>
+            <li><a href="#">Domain</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </div>
+
+                                                          <!-------BUTTON----  -->
+        <button class="px-10 bg-[#0C8BFD] rounded-4xl text-white hover:bg-white hover:text-black">
+          <span>Login</span>
+        </button>
+      </div>
+    </header>
+                                              <!-- ----------MAIN------------ -->
+    <main >
+                                               <!-- ----------HEADER------------ -->
+      <section class="hero bg-black">
+        <div class="container lg:flex lg:py-8 ">
+          <div class="text lg:w-[50%]">
+            <h1
+              class="text-[3rem] font-medium text-center leading-none px-4 py-20 lg:py-10 lg:px-20 text-white lg:text-start"
+            >
+              The best and <span class="text-[#0C8BFD]">cheapest</span> hosting
+              for your website
+            </h1>
+            <p class="text-center px-12 text-zinc-500 lg:text-start lg:ml-30">
+              Hosting your website here is easy, access is fast, server security
+              is very well maintained, and of course supported by reliable
+              servers.
+            </p>
+            <div class="btn-groups ml-17 mt-10">
+              <button class="px-10 py-2 bg-[#0C8BFD] rounded-4xl border-1 text-white hover:bg-black hover:text-white">
+                Get Started
+              </button>
+              <button class="px-10 py-2 border-1 rounded-4xl text-white hover:bg-white hover:text-black">
+                Try Start Free
+              </button>
+            </div>
+          </div>
+                                                      <!-- -----------HEADER IMG------- -->
+          <div class="img mt-15 lg:mt-5">
+            <img
+              class="lg:h-[70vh] lg:ml-25"
+              src="./assets/images/Illustrations/Group 238502.svg"
+              alt="hero-img"
+            />
+          </div>
+        </div>
+      </section>
+                                                    <!-- ----------LOGOS------------- -->
+      <section class="company-logo  ">
+        <div
+          class=" bg-zinc-800 lg:flex lg:justify-between lg:h-20  lg:px-20 lg:py-5 lg:w-full grid h-48 grid-cols-2 place-content-between gap-4 p-4">
+          <img
+            src="./assets/images/Logo-light.svg"
+            alt="c-logo"
+            class="company-logo"
+          />
+          <img
+            src="./assets/images/Logo-light.svg"
+            alt="c-logo"
+            class="company-logo"
+          />
+          <img
+            src="./assets/images/Logo-light.svg"
+            alt="c-logo"
+            class="company-logo"
+          />
+          <img
+            src="./assets/images/Logo-light.svg"
+            alt="c-logo"
+            class="company-logo"
+          />
+        </div>
+      </section>
+                                          <!-- ---------SERVICE SECTION----------- -->
+      <section class="service">
+        <div class="heading max-width">
+          <h1 class="text-[2rem] font-medium text-center px-5 mt-15">
+            The best service especially for you
+          </h1>
+          <p class="text-center px-10 py-6 text-zinc-800 lg:px-120">
+            We will serve as you best we can with the aim of providing
+            satsfaction to you.
+          </p>
+        </div>
+
+        <div
+          class="container max-width flex flex-col items-center gap-6 lg:flex-row lg:ml-10"
+        >
+          <div
+            class="items border-1 flex justify-center flex-col rounded-4xl h-[45vh] w-[95%] gap-4 hover:bg-black hover:text-white lg:h-90"
+          >
+            <img class="h-30" src="./assets/images/Icons/fast.svg" alt="fast" />
+            <h1 class="text-[2rem] text-center">Faster hosting process</h1>
+            <p class="text-center px-5 text-zinc-400 lg:px-19">
+              We can speed of the creation of you website, which is made
+              directly by the experts.
+            </p>
+          </div>
+          <div
+            class="items border-1 flex justify-center flex-col rounded-4xl h-[45vh] w-[95%] gap-4 hover:bg-black hover:text-white lg:h-90"
+          >
+            <img
+              class="h-30"
+              src="./assets/images/Icons/signal.svg"
+              alt="signal"
+            />
+            <h1 class="text-[2rem] text-center">Speed to access faster</h1>
+            <p class="text-center px-5 text-zinc-400 lg:px-19">
+              Excellent network infrastructure and hardware to support fast and
+              stable access.
+            </p>
+          </div>
+          <div
+            class="items border-1 flex justify-center flex-col rounded-4xl h-[45vh] w-[95%] gap-4 hover:bg-black hover:text-white lg:h-90"
+          >
+            <img
+              class="h-30"
+              src="./assets/images/Icons/heart.svg"
+              alt="heart"
+            />
+            <h1 class="text-[2rem] text-center">Faster service 24/7</h1>
+            <p class="text-center px-5 text-zinc-400 lg:px-20">
+              We have a response time of less than 150 seconds, available 24
+              hours a day
+            </p>
+          </div>
+        </div>
+      </section>
+                                             <!-- -----------FEATURES SECTION------- -->
+      <section class="features max-width">
+        <div class="heading">
+          <h1
+            class="text-[2rem] font-bold leading-none ml-4 py-20 lg:px-90 lg:ml-[-150px]"
+          >
+            We are ready to support your business needs to be more advanced
+          </h1>
+        </div>
+                                            
+        <div
+          class="container flex items-center flex-col lg:flex-row lg:justify-between"
+        >
+                                                       <!-- ---------SECTION1--------- -->
+          <ul
+            class="list flex flex-col justify-center gap-4 w-[95%] lg:w-[35%] lg:ml-30 lg:mb-30"
+          >
+            <li
+              class="elem flex w-full justify-between items-center px-3 py-2 lg:py-3 border-1 rounded-4xl hover:bg-sky-700 hover:text-white"
+            >
+              <span>Our main features</span>
+              <img
+                class="img-1 invisible elem-hover:opacity-100"
+                src="./assets/images/Icons/Group 238511.svg"
+                alt=""
+              />
+              <img
+                class="img-2 elem-hover:opacity-0"
+                src="./assets/images/Icons/Group 238512.svg"
+                alt=""
+              />
+            </li>
+            <li
+              class="flex w-full justify-between items-center px-3 py-2 border-1 rounded-4xl lg:py-3"
+            >
+              <span>Speed optimization</span>
+              <img src="./assets/images/Icons/Group 238512.svg" alt="" />
+            </li>
+            <li
+              class="flex w-full justify-between items-center px-3 py-2 border-1 rounded-4xl lg:py-3"
+            >
+              <span>Downtime and security optimization</span>
+              <img src="./assets/images/Icons/Group 238512.svg" alt="" />
+            </li>
+            <li
+              class="flex w-full justify-between items-center px-3 py-2 border-1 rounded-4xl lg:py-3"
+            >
+              <span>Additional features</span>
+              <img src="./assets/images/Icons/Group 238512.svg" alt="" />
+            </li>
+            <li
+              class="flex w-full justify-between items-center px-3 py-2 border-1 rounded-4xl lg:py-3"
+            >
+              <span>Best technical support service</span>
+              <img src="./assets/images/Icons/Group 238512.svg" alt="" />
+            </li>
+          </ul>
+                                                     <!-- ----------SECTION2--------- -->
+          <ul
+            class="list flex flex-col gap-4 bg-black text-white justify-center py-4 px-3 rounded-4xl mt-10 w-[95%] lg:w-[35%] lg:mb-40"
+          >
+            <li>
+              <span
+                class="flex w-full items-center px-3 py-2 bg-zinc-800 rounded-4xl hover:bg-white hover:text-black"
+              >
+                <div class="h-[12px] w-[12px] rounded-xl bg-white mr-2 hover:bg-black"></div>
+                Number of Websites</span
+              >
+            </li>
+            <li>
+              <span
+                class="flex w-full items-center px-3 py-2 rounded-4xl bg-zinc-800 hover:bg-white hover:text-black"
+              >
+                <div class="h-[12px] w-[12px] rounded-xl bg-white mr-2 hover:bg-black"></div>
+                Number of Email Accounts</span
+              >
+            </li>
+            <li>
+              <span
+                class="flex w-full items-center px-3 py-2 bg-zinc-800 rounded-4xl hover:bg-white hover:text-black"
+              >
+                <div class="h-[12px] w-[12px] rounded-xl bg-white mr-2 hover:bg-black"></div>
+                Unlimited MySQL Databases</span
+              >
+            </li>
+            <li>
+              <span
+                class="flex w-full items-center px-3 py-2 bg-zinc-800 rounded-4xl hover:bg-white hover:text-black"
+              >
+                <div class="h-[12px] w-[12px] rounded-xl bg-white mr-2 hover:bg-black"></div>
+                Unlimited Bandwidth</span
+              >
+            </li>
+            <li>
+              <span
+                class="flex w-full items-center px-3 py-2 bg-zinc-800 rounded-4xl hover:bg-white hover:text-black"
+              >
+                <div class="h-[12px] w-[12px] rounded-xl bg-white mr-2 hover:bg-black"></div>
+                Unlimited Sub & Parked Domains</span
+              >
+            </li>
+            <li>
+              <span
+                class="flex w-full items-center px-3 py-2 bg-zinc-800 rounded-4xl hover:bg-white hover:text-black"
+              >
+                <div class="h-[12px] w-[12px] rounded-xl bg-white mr-2 hover:bg-black"></div>
+                30 Days Unconditional Guarantee</span
+              >
+            </li>
+            <li>
+              <span
+                class="flex w-full items-center px-3 py-2 bg-zinc-800 rounded-4xl hover:bg-white hover:text-black"
+              >
+                <div class="h-[12px] w-[12px] rounded-xl bg-white mr-2 hover:bg-black"></div>
+                Free Domain</span
+              >
+            </li>
+            <li>
+              <span
+                class="flex w-full items-center px-3 py-2 bg-zinc-800 rounded-4xl hover:bg-white hover:text-black"
+              >
+                <div class="h-[12px] w-[12px] rounded-xl bg-white mr-2 hover:bg-black"></div>
+                Disk Space
+              </span>
+            </li>
+          </ul>
+        </div>
+      </section>
+                                                   <!-- ----------HOSTING--------- -->
+      <section class="price bg-black lg:py-10 ">
+        <div class="heading max-width">
+          <h1
+            class="text-[2rem] font-bold leading-none text-center py-20 bg-black text-white lg:leading-[3rem]"
+          >
+            Hosting your website with the<br />services we provide
+          </h1>
+        </div>
+        <div
+          class="container max-widt flex flex-col items-center bg-black gap-6 lg:flex-row lg:gap-18"
+        >
+                                                        <!-- --------SER PROVIDE1------ -->
+          <div
+            class="item item-1 border-1 bg-white w-[95%] h-[37vh] rounded-2xl px-4 lg:h-[67vh] hover:bg-sky-700 hover:text-white"
+          >
+            <h2 class="text-[2rem] font-bold">Regular</h2>
+            <h1 class="text-[3rem]">
+              $8<span class="text-[2rem] text-zinc-500 font-bold">/month</span>
+            </h1>
+            <p class="text-[15px]">
+              Suitable for you who will build a website and others.
+            </p>
+            <div class="line w-[95%] bg-black h-[1px]"></div>
+            <ul class="list lg:py-4">
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/blue-tick.svg"
+                  alt="blue"
+                />
+                <span>Up to 16,000 Visitors/Month</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/blue-tick.svg"
+                  alt="blue"
+                />
+                <span>500mb SSD Disk Space</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/blue-tick.svg"
+                  alt="blue"
+                />
+                <span>Unlimited Bandwidth</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/blue-tick.svg"
+                  alt="blue"
+                />
+                <span>Unlimited Databases</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/blue-tick.svg"
+                  alt="blue"
+                />
+                <span>Instant Backup</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/blue-tick.svg"
+                  alt="blue"
+                />
+                <span>1 Email Account</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/blue-tick.svg"
+                  alt="blue"
+                />
+                <span>1 Domain</span>
+              </li>
+            </ul>
+
+            <button
+              class="btn btn-price px-45 lg:px-40 py-1 rounded-4xl border-1 mt-5 hover:text-sky-700 hover:bg-white"
+            >
+              Select
+            </button>
+          </div>
+                                                     <!-- -----------SER PROVIDE2-------- -->
+          <div
+            class="item item-2 border-1 w-[95%] h-[39vh] bg-white hover:bg-sky-700 hover:text-white rounded-2xl px-4 lg:h-[67vh]"
+          >
+            <h2 class="text-[2rem] font-bold">Standard</h2>
+            <h1 class="text-[3rem]">
+              $12.98<span class="text-[2rem] text-zinc-500 font-bold"
+                >/month</span
+              >
+            </h1>
+            <p>
+              Suitable for business, such as a website or management system for
+              compliments.
+            </p>
+            <div class="line w-[95%] bg-black h-[1px]"></div>
+            <ul class="list lg:py-4">
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/white-tick.svg"
+                  alt="white-tick"
+                />
+                <span>Up to 16,000 Visitors/Month</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/white-tick.svg"
+                  alt="white-tick"
+                />
+                <span>500mb SSD Disk Space</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/white-tick.svg"
+                  alt="white-tick"
+                />
+                <span>Unlimited Bandwidth</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/white-tick.svg"
+                  alt="white-tick"
+                />
+                <span>Unlimited Databases</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/white-tick.svg"
+                  alt="white-tick"
+                />
+                <span>Instant Backup</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/white-tick.svg"
+                  alt="white-tick"
+                />
+                <span>1 Email Account</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/white-tick.svg"
+                  alt="white-tick"
+                />
+                <span>1 Domain</span>
+              </li>
+            </ul>
+
+            <button
+              class="btn btn-select px-45 lg:px-40 py-1 rounded-4xl border-1 mt-5 hover:bg-white hover:text-sky-700"
+            >
+              Select
+            </button>
+          </div>
+                                                          <!-- --------SER PROVIDE3---- -->
+          <div
+            class="item item-3 border-1 w-[95%] h-[39vh] bg-white hover:bg-sky-700 hover:text-white rounded-2xl px-4 lg:h-[67vh]"
+          >
+            <h2 class="text-[2rem] font-bold">Premium</h2>
+            <h1 class="text-[3rem]">
+              $19.99<span class="text-[2rem] text-zinc-500 font-bold"
+                >/month</span
+              >
+            </h1>
+            <p>
+              Suitable for those of you who need special physical server
+              performance and security.
+            </p>
+            <div class="line w-[95%] bg-black h-[1px]"></div>
+            <ul class="list lg:py-4">
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/blue-tick.svg"
+                  alt="blue"
+                />
+                <span>Up to 16,000 Visitors/Month</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/blue-tick.svg"
+                  alt="blue"
+                />
+                <span>500mb SSD Disk Space</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/blue-tick.svg"
+                  alt="blue"
+                />
+                <span>Unlimited Bandwidth</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/blue-tick.svg"
+                  alt="blue"
+                />
+                <span>Unlimited Databases</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/blue-tick.svg"
+                  alt="blue"
+                />
+                <span>Instant Backup</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/blue-tick.svg"
+                  alt="blue"
+                />
+                <span>1 Email Account</span>
+              </li>
+              <li class="flex">
+                <img
+                  class="mr-2"
+                  src="./assets/images/Icons/blue-tick.svg"
+                  alt="blue"
+                />
+                <span>1 Domain</span>
+              </li>
+            </ul>
+
+            <button
+              class="btn btn-select px-45 lg:px-40 py-1 rounded-4xl border-1 mt-5 hover:bg-white hover:text-sky-700"
+            >
+              Select
+            </button>
+          </div>
+        </div>
+      </section>
+                                                     <!-- -------FEEDBACK------ -->
+      <section class="feedback lg:h-[80vh] lg:overflow-x-scroll">
+        <div
+          class=" hidden lg:block lg:flex justify-between lg:gap-50 lg:my-10"
+        >
+          <h1 class="lg:text-[2rem] lg: font-bold lg:ml-10">
+            What do our<br />customers say?
+          </h1>
+          <p class="lg:text-zinc-600 lg:w-100 lg:mr-10 lg:items-center">
+            You will definitely be suprised how our customers comment on what we
+            do so well. beacuse we really priotirize the satsfaction of our
+            customers.
+          </p>
+        </div>
+        <div
+          class=" hidden lg:block lg:flex lg:w-fit "
+        >
+                                                     <!-- ----------FEEDBACK1-------- -->
+          <div
+            class="items border-1 lg:h-[50vh] lg:w-[40vw] px-5 py-8 rounded-2xl leading-[28px] hover:bg-black hover:text-white"
+          >
+            <div class="quote flex gap-2">
+              <img
+                src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector.svg"
+                alt=""
+              />
+              <img
+                src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector-1.svg"
+                alt=""
+              />
+            </div>
+            <div class="name">
+              <h3 class="text-[20px]">Slamet Wijaya</h3>
+              <span class="text-[15px]">CEO Tokped</span>
+            </div>
+            <p class="text-zinc-600 text-start ml-12 leading-none">
+              Web hosting that i highly recommend beacuse the service provided
+              is very good, hosting is fast so with a pretty fantastic speed.
+            </p>
+            <div class="star flex gap-2 mt-6">
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+            </div>
+          </div>
+                                                      <!-- ----------FEEDBACK2-------- -->
+          <div
+            class="items border-1 lg:h-[50vh] lg:w-[40vw] px-5 py-8 rounded-2xl ml-10 leading-[28px] hover:bg-black hover:text-white"
+          >
+            <div class="quote flex gap-2">
+              <img
+                src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector.svg"
+                alt=""
+              />
+              <img
+                src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector-1.svg"
+                alt=""
+              />
+            </div>
+            <div class="name">
+              <h3 class="text-[20px]">Slamet Wijaya</h3>
+              <span class="text-[15px]">CEO Tokped</span>
+            </div>
+            <p class="text-zinc-600 text-start ml-12 leading-none">
+              Web hosting that i highly recommend beacuse the service provided
+              is very good, hosting is fast so with a pretty fantastic speed.
+            </p>
+            <div class="star flex gap-2 mt-6">
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+            </div>
+          </div>
+                                                    <!-- ----------FEEDBACK3-------- -->
+          <div
+            class="items border-1 lg:h-[50vh] lg:w-[40vw] px-5 py-8 rounded-2xl ml-10 leading-[28px] hover:bg-black hover:text-white"
+          >
+            <div class="quote flex gap-2">
+              <img
+                src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector.svg"
+                alt=""
+              />
+              <img
+                src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector-1.svg"
+                alt=""
+              />
+            </div>
+            <div class="name">
+              <h3 class="text-[20px]">Slamet Wijaya</h3>
+              <span class="text-[15px]">CEO Tokped</span>
+            </div>
+            <p class="text-zinc-600 text-start ml-12 leading-none">
+              Web hosting that i highly recommend beacuse the service provided
+              is very good, hosting is fast so with a pretty fantastic speed.
+            </p>
+            <div class="star flex gap-2 mt-6">
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+            </div>
+          </div>
+                                                    <!-- ----------FEEDBACK4-------- -->
+          <div
+            class="items border-1 lg:h-[50vh] lg:w-[40vw] px-5 py-8 rounded-2xl ml-10 leading-[28px] hover:bg-black hover:text-white"
+          >
+            <div class="quote flex gap-2">
+              <img
+                src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector.svg"
+                alt=""
+              />
+              <img
+                src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector-1.svg"
+                alt=""
+              />
+            </div>
+            <div class="name">
+              <h3 class="text-[20px]">Slamet Wijaya</h3>
+              <span class="text-[15px]">CEO Tokped</span>
+            </div>
+            <p class="text-zinc-600 text-start ml-12 leading-none">
+              Web hosting that i highly recommend beacuse the service provided
+              is very good, hosting is fast so with a pretty fantastic speed.
+            </p>
+            <div class="star flex gap-2 mt-6">
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+            </div>
+          </div>
+                                                  <!-- ---------FEEDBACK5-------- -->
+          <div
+            class="items border-1 lg:h-[50vh] lg:w-[40vw] px-5 py-8 rounded-2xl ml-10 leading-[28px] hover:bg-black hover:text-white"
+          >
+            <div class="quote flex gap-2">
+              <img
+                src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector.svg"
+                alt=""
+              />
+              <img
+                src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector-1.svg"
+                alt=""
+              />
+            </div>
+            <div class="name">
+              <h3 class="text-[20px]">Slamet Wijaya</h3>
+              <span class="text-[15px]">CEO Tokped</span>
+            </div>
+            <p class="text-zinc-600 text-start ml-12 leading-none">
+              Web hosting that i highly recommend beacuse the service provided
+              is very good, hosting is fast so with a pretty fantastic speed.
+            </p>
+            <div class="star flex gap-2 mt-6">
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+              <img src="./assets/images/Icons/Star.svg" alt="star" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contac bg-black">
+        <div class="container max-width">
+                                              <!-- ----------SIGN UP---------- -->
+          <div class="heading">
+            <h1
+              class="text-[2rem] px-5 lg:px-80 leading-none font-bold text-center text-white py-20"
+            >
+              Sign up now for as much hosting and domain as you want for
+              $20.99/year
+            </h1>
+          </div>
+          <form
+            class="flex flex-col lg:flex-row lg:px-4 gap-6 lg:ml-15 ml-3 bg-zinc-800 lg:rounded-2xl py-4  w-[95%] items-center"
+          >
+            <input
+              type="text"
+              class="name bg-black text-zinc-500 text-start w-[85%] px-4 py-2"
+              placeholder="Name"
+            />
+            <input
+              type="email"
+              name="email"
+              class="email bg-black text-zinc-500 text-start w-[85%] px-4 py-2"
+              placeholder="Email Address"
+            /> 
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              class="password bg-black text-zinc-500 text-start w-[85%] px-4 py-2"
+            />
+            <button
+              class="btn btn-sign px-6 py-2 lg:px-8 lg:py-0 bg-white rounded-4xl hover:bg-sky-700 hover:text-white"
+            >
+              Sign Up
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>                         
+                                               <!-- ---------FOOTER------- -->
+    <footer class="bg-black py-10 flex flex-col lg:h-110  px-10 h-230 gap-[3rem]">
+      <div class="line max-width mt-15 lg:mt-5 bg-zinc-800 h-[1px] w-[100%]"></div>
+      <div class="container max-width gap-20 lg:flex lg:justify-between">
+                                              <!-- ------------COMPANY---------- -->
+        <ul class="list">
+          <h1 class="text-[2rem] text-zinc-500">Company</h1>
+          <li class="text-zinc-500">
+            <a href="#"> About us </a>
+          </li>
+          <li class="text-zinc-500">
+            <a href="#"> Contact us </a>
+          </li>
+          <li class="text-zinc-500">
+            <a href="#"> Carier </a>
+          </li>
+          <li class="text-zinc-500">
+            <a href="#"> Blog </a>
+          </li>
+        </ul>
+                                          <!-- ------------FEATURES----------- -->
+        <ul class="list">
+          <h1 class="text-[2rem] text-zinc-500">Features</h1>
+          <li class="text-zinc-500">
+            <a href="#"> Domain </a>
+          </li>
+          <li class="text-zinc-500">
+            <a href="#"> Hosting </a>
+          </li>
+          <li class="text-zinc-500">
+            <a href="#"> Wordpress </a>
+          </li>
+          <li class="text-zinc-500">
+            <a href="#"> Web Security </a>
+          </li>
+        </ul>
+                                              <!-- -------------HELP------------ -->
+        <ul class="list">
+          <h1 class="text-[2rem] text-zinc-500">Help</h1>
+          <li class="text-zinc-500">
+            <a href="#"> Payment method </a>
+          </li>
+          <li class="text-zinc-500">
+            <a href="#"> know Ledgebase </a>
+          </li>
+          <li class="text-zinc-500">
+            <a href="#"> Tutorials </a>
+          </li>
+        </ul>
+                                          <!-- ----------SOCIAL MEDIA------------- -->
+        <ul class="list">
+          <h1 class="text-[2rem] text-zinc-500">Social media</h1>
+          <li class="text-zinc-500">
+            <a href="#"> Instagram </a>
+          </li>
+          <li class="text-zinc-500">
+            <a href="#"> Twitter </a>
+          </li>
+          <li class="text-zinc-500">
+            <a href="#"> Facebook </a>
+          </li>
+          <li class="text-zinc-500">
+            <a href="#"> Youtube </a>
+          </li>
+        </ul>
+      </div>
+      <div class="line max-width h-[1px] w-[100%] bg-zinc-700"></div>
+      <div class="footdiv flex justify-between lg:flex lg:justify-between">
+        <img
+          src="./assets/images/Logo.svg"
+          alt="logo"
+          class="logo max-width logo-bottom"
+        />
+        <p class="text-[1rem] text-white">Made by -- AKASH🔥</p>
+      </div>
+    </footer>
+  </body>
+</html>
